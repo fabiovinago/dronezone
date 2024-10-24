@@ -1,5 +1,44 @@
 /*FONTS*/
+:root {
+    --bs-body-font-family: proximanovaregular, sans-serif;
+    --bs-heading-font-family: proximanovebold, sans-serif;
+    --bs-heading-font-family: proximanovalight, sans-serif;
+}
+
+}
+.navbar-nav .nav-link {
+    font-family: proximanovaregular, sans-serif;
+}
+
 @font-face {
-    font-family: proximanova;
+    font-family: proximanovaregular;
     src: url('../fonts/Proximanova_regular.ttf');
+}
+@font-face {
+    font-family: proximanovebold;
+    src: url('../fonts/Proximanove_bold.otf');
+}
+@font-face {
+    font-family: proximanovalight;
+    src: url('../fonts/Proximanova_light.otf');
+}
+/*CUSTOM GAP*/
+.navbar-nav {
+    gap: 20px;
+}
+/*CUSTOM MARGINS*/
+.custum-margin-top{
+    margin-top: 200px;
+}
+/*AANGEPASTE KNOPPEN*/
+.btn-light{
+    font-size: 18px;
+}
+.btn-outline-light{
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: #28479a;
+    border-color: none;
+    font-size: 18px;
 }
